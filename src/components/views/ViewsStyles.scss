@@ -1,0 +1,19 @@
+.views {
+    .container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 1rem;
+    }
+    img {
+        height: 100%;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .views {
+        .container {
+            grid-template-columns: 1fr;
+        }
+    }
+}

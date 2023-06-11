@@ -1,0 +1,19 @@
+.views-location {
+    position: relative;
+    .overlay {
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background: rgba(0, 0, 0, 0.3);
+    }
+    p {
+        position: absolute;
+        bottom: 1rem;
+        left: 1rem;
+        color: #fff;
+        font-size: 2rem;
+        font-weight: 500;
+    }
+}
