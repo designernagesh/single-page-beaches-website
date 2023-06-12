@@ -9,7 +9,7 @@ const Views = () => {
                 {
                     data.map((img, i) => {
                         return (
-                            <ViewsImage bgImg={img.image} text={img.title} Key={i} />
+                            <ViewsImage bgImg={img.image} title={img.title} key={i} />
                         )
                     })
                 }

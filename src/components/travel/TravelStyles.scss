@@ -1,0 +1,21 @@
+.travel {
+    padding: 2rem 0;
+
+    img {
+        height: 90vh;
+        object-fit: cover;
+    }
+}
+
+.control-dots {
+    .dot {
+        width: 16px;
+        height: 16px;
+        user-select: none;
+    }
+}
+
+.thumbs-wrapper,
+.carousel-status {
+    display: none;
+}
